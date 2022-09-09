@@ -18,7 +18,7 @@ const PersonalInfo = () => {
           
         //   console.log(JSON.stringify({forWhom, age, gender,raceOrEthnicity, householdIncome, usOrNot, countryOrState, postalCode, populationType, caringType, LGBTQSexualOrientation, traumaExperience, previousTreatment, mainMentalHealthProblems, healthInsurance, generalHealthCondition}));
  
-            const response = await axios.post('https://depression-tester-details.herokuapp.com/user/userInfo',{forWhom, age, gender,raceOrEthnicity, householdIncome, usOrNot, countryOrState, postalCode, populationType, caringType, LGBTQSexualOrientation, traumaExperience, previousTreatment, mainMentalHealthProblems, healthInsurance, generalHealthCondition})
+            const response = await axios.post('http://localhost:8080/user/userInfo',{forWhom, age, gender,raceOrEthnicity, householdIncome, usOrNot, countryOrState, postalCode, populationType, caringType, LGBTQSexualOrientation, traumaExperience, previousTreatment, mainMentalHealthProblems, healthInsurance, generalHealthCondition})
             console.log(response);
             navigate('/final')
       }
