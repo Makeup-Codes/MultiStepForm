@@ -30,3 +30,14 @@
 .input-checkbox:checked ~ .label span{
   color: rgb(52 211 153);
 }
+
+
+
+@media (max-width: 320px) {
+  .text-10px{
+    font-size: 10px;
+  }
+  .input-button-text{
+    font-size: 15px;
+  }
+}
