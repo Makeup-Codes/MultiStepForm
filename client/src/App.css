@@ -1,0 +1,32 @@
+.input:checked + .checked-color{
+  background-color: rgb(52 211 153)!important;
+  color: white;
+}
+.error-message{
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: #ff00001c;
+  width: 85%;
+}
+.label{
+  position: relative;
+}
+.label::before{
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(52 211 153);
+  border-radius: 50%;
+}
+.input-checkbox:checked ~ .label::before{
+  background-color: rgb(52 211 153);
+}
+
+.input-checkbox:checked ~ .label span{
+  color: rgb(52 211 153);
+}
