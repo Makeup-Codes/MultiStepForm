@@ -46,6 +46,20 @@ const Final = () => {
         </div>
     )
 
+    const Status = () =>{
+        if(data === 0){
+            return 'Minimal Depression';
+            
+        }
+        else if( data > 0 && data <= 15 ){
+            return 'Moderate Depression';
+            
+        }
+        else if(data > 15 && data <= 30){
+            return 'Severe Depression';
+            
+        }
+    }
     
     const MessageData = () => {
     if(data === 0){
@@ -107,7 +121,7 @@ const Final = () => {
                 YOUR DEPRESSION TEST SCORE WAS
             </h3>
             <p className="text-3xl lg:text-5xl font-bold text-white">
-                Severe Depression
+                <Status/>
             </p>
         </div>
 
