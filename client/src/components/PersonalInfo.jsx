@@ -553,18 +553,18 @@ const PersonalInfo = () => {
 
 
   return (
-    <div className="w-100 md:w-3/5 mx-auto rounded-2xl p-4">
-        <div className="container horizantal mt-5">
+      <div className="w-100 md:w-3/5 mx-auto rounded-2xl p-4">
         <h3 className="text-cyan-600 text-3xl sm:text-5xl font-bold	mb-4">Depression Test</h3>
-        <p className="text-justify md:text-left">There was a problem with your submission. Please review the fields below.</p>
+        <div className="container lg:w-2/3 horizantal mt-5 mx-auto">
+        {/* <p className="text-justify md:text-left">There was a problem with your submission. Please review the fields below.</p> */}
         <div className="mx-4 p-4 flex justify-between items-center mb-8">
         <div className="w-full flex items-center">
             <div className="relative flex flex-col items-center text-teal-600">
                 <div
-                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-12 w-12 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-blue-900">
+                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-9 w-10 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-blue-900">
                         <span><i className="fa-solid fa-check"></i></span>
                 </div>
-                <div className="absolute top-0 text-center mt-16 w-100 text-xs text-10px font-medium uppercase text-gray-900">Test
+                <div className="absolute top-0 text-center mt-14 w-100 text-xs text-10px font-medium uppercase text-gray-900">Test
                     Questions</div>
             </div>
             <div className="flex-auto border-t-8 transition duration-500 ease-in-out border-blue-900"></div>
@@ -572,9 +572,9 @@ const PersonalInfo = () => {
         <div className="w-full flex items-center">
             <div className="relative flex flex-col items-center text-teal-600">
                 <div
-                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-12 w-12 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-emerald-400">
+                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-9 w-10 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-emerald-400">
                 </div>
-                <div className="absolute top-0 text-center mt-16 w-32 text-xs text-10px font-medium uppercase text-gray-400">
+                <div className="absolute top-0 text-center mt-14 w-32 text-xs text-10px font-medium uppercase text-gray-400">
                     Demographic Information</div>
             </div>
             <div className="flex-auto border-t-8 transition duration-500 ease-in-out border-blue-900"></div>
@@ -582,9 +582,9 @@ const PersonalInfo = () => {
         <div className="flex items-center">
             <div className="relative flex flex-col items-center text-teal-600">
                 <div
-                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-12 w-12 flex items-center justify-center py-3">
+                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-9 w-10 flex items-center justify-center py-3">
                 </div>
-                <div className="absolute top-0 text-center mt-16 w-32 text-xs text-10px font-medium uppercase text-gray-400">Your
+                <div className="absolute top-0 text-center mt-14 w-32 text-xs text-10px font-medium uppercase text-gray-400">Your
                     Results</div>
             </div>
             <div className="flex-auto border-t-8 transition duration-500 ease-in-out border-gray-300"></div>
@@ -593,9 +593,9 @@ const PersonalInfo = () => {
 
         </div>
 
-        <p className="text-justify md:text-left">Please take a moment to answer the following optional questions. Your answers are totally anonymous—we won't be able to identify you based on this information. Your answers help us provide better information and support for people like you.</p>
+        <p className="text-justify md:text-left pt-3 pb-2">Please take a moment to answer the following optional questions. Your answers are totally anonymous—we won't be able to identify you based on this information. Your answers help us provide better information and support for people like you.</p>
 
-        <p className="text-justify md:text-left">You can answer as many or as few questions as you would like. When you are done, scroll to the bottom of the survey and click "submit" to receive your screening results.</p>
+        <p className="text-justify md:text-left pb-3">You can answer as many or as few questions as you would like. When you are done, scroll to the bottom of the survey and click "submit" to receive your screening results.</p>
 
         <hr />
 
@@ -1036,12 +1036,12 @@ const PersonalInfo = () => {
                     <div className="flex justify-between">
 
                 <Link to='/'
-      className="bg-cyan-600 text-white uppercase py-4 px-12 rounded-tr-xl rounded-tl-xl rounded-br-xl font-semibold cursor-pointer  hover:bg-emerald-300 hover:text-white transition duration-200 ease-in-out">
+      className="bg-cyan-600 text-white uppercase py-4 px-8 rounded-tr-xl rounded-tl-xl rounded-br-xl font-semibold cursor-pointer  hover:bg-emerald-300 hover:text-white transition duration-200 ease-in-out">
         Back
       </Link>
 
     <button
-      className="bg-cyan-600 text-white uppercase py-4 px-12 rounded-tr-xl rounded-tl-xl rounded-br-xl font-semibold cursor-pointer  hover:bg-emerald-300 hover:text-white transition duration-200 ease-in-out">
+      className="bg-cyan-600 text-white uppercase py-4 px-8 rounded-tr-xl rounded-tl-xl rounded-br-xl font-semibold cursor-pointer  hover:bg-emerald-300 hover:text-white transition duration-200 ease-in-out">
         Next
       </button>
                     </div>

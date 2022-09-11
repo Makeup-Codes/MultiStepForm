@@ -76,17 +76,17 @@ const Final = () => {
 
   return (
     <div className="w-100 md:w-3/5 mx-auto rounded-2xl p-4">
-        <div className="container horizantal mt-5 mb-12">
         <h3 className="text-cyan-600 text-5xl	font-bold	mb-4">Your Results</h3>
+        <div className="container lg:w-2/3 horizantal mt-5 mb-12 mx-auto">
        
         <div className="mx-4 p-4 flex justify-between items-center mb-8">
         <div className="w-full flex items-center">
             <div className="relative flex flex-col items-center text-teal-600">
                 <div
-                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-12 w-12 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-blue-900">
+                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-9 w-10 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-blue-900">
                         <span><i className="fa-solid fa-check"></i></span>
                 </div>
-                <div className="absolute top-0 text-center mt-16 w-100 text-xs text-10px font-medium uppercase text-gray-900">Test
+                <div className="absolute top-0 text-center mt-14 w-100 text-xs text-10px font-medium uppercase text-gray-900">Test
                     Questions</div>
             </div>
             <div className="flex-auto border-t-8 transition duration-500 ease-in-out border-blue-900"></div>
@@ -94,10 +94,10 @@ const Final = () => {
         <div className="w-full flex items-center">
             <div className="relative flex flex-col items-center text-teal-600">
             <div
-                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-12 w-12 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-blue-900">
+                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-9 w-10 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-blue-900">
                         <span><i className="fa-solid fa-check"></i></span>
                 </div>
-                <div className="absolute top-0 text-center mt-16 w-32 text-xs text-10px font-medium uppercase text-gray-400">
+                <div className="absolute top-0 text-center mt-14 w-32 text-xs text-10px font-medium uppercase text-gray-400">
                     Demographic Information</div>
             </div>
             <div className="flex-auto border-t-8 transition duration-500 ease-in-out border-blue-900"></div>
@@ -105,9 +105,9 @@ const Final = () => {
         <div className="flex items-center">
             <div className="relative flex flex-col items-center text-teal-600">
                 <div
-                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-12 w-12 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-emerald-400 ">
+                    className="rounded-full transition duration-500 ease-in-out border-8 border-gray-300 h-9 w-10 flex items-center justify-center py-3 border-blue-900 text-white font-bold border-8 bg-emerald-400 ">
                 </div>
-                <div className="absolute top-0 text-center mt-16 w-32 text-xs text-10px font-medium uppercase text-gray-400">Your
+                <div className="absolute top-0 text-center mt-14 w-32 text-xs text-10px font-medium uppercase text-gray-400">Your
                     Results</div>
             </div>
             <div className="flex-auto border-t-8 transition duration-500 ease-in-out border-gray-300"></div>
