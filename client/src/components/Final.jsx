@@ -1,4 +1,5 @@
 import React, {useState, useContext} from 'react'
+import {Link} from 'react-router-dom'
 
 
 
@@ -126,9 +127,13 @@ const Final = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row">
-            <div className="w-100 lg:w-1/3 border rounded-2xl mt-10 text-center bg-blue-900 text-white p-4 font-bold mx-auto hover:bg-teal-200 hover:text-black cursor-pointer">
+            
+            <Link to="/" className="w-100 lg:w-1/3 border rounded-2xl mt-10 text-center bg-blue-900 text-white p-4 font-bold mx-2 hover:bg-teal-200 hover:text-black cursor-pointer">Home</Link>
+
+            <div className="w-100 lg:w-1/3 border rounded-2xl mt-10 text-center bg-blue-900 text-white p-4 font-bold mx-2 hover:bg-teal-200 hover:text-black cursor-pointer">
                 Your Score is: {data}/30
             </div>
+            <a href="/#" className="w-100 lg:w-1/3 border rounded-2xl mt-10 text-center bg-blue-900 text-white p-4 font-bold mx-2 hover:bg-teal-200 hover:text-black cursor-pointer">Take Another Test</a>
             {/* <div className="w-100 lg:w-1/3 border rounded-2xl mt-10 text-center bg-blue-900 text-white p-4 font-bold mx-auto hover:bg-teal-200 hover:text-black cursor-pointer" >
                 Click For Medical Advise <i className="fa-regular fa-hand-pointer"></i>
             </div> */}
